@@ -11,11 +11,14 @@ I created a shim so that you can shebang-run your apps
 
 ## Install
 
-    npm install -g node-es5
+    sudo npm install -g node-es5
 
 ## Usage
 
     #!/usr/bin/env node-es5
+
+Also, you can pull `strict: true` out of your `.jshintrc` and hopefully replace it with `implicitstrict`
+in the near future. See <https://github.com/jshint/jshint/issues/924>.
 
 ## Hiccups
 
