@@ -1,0 +1,26 @@
+{
+  "name": "node-es5",
+  "version": "1.0.0",
+  "description": "A shim to always run node in es5 proper \"strict mode\"",
+  "main": "index.js",
+  "bin": {
+    "node-es5": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coolaj86/node-es5.git"
+  },
+  "keywords": [
+    "es5",
+    "strict mode",
+    "strict"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com)",
+  "license": "Apache2",
+  "readmeFilename": "README.md",
+  "gitHead": "8388bfa116594da9d84366230d911139ad2e2a25"
+}
